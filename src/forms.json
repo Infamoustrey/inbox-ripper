@@ -1,0 +1,58 @@
+{
+  "forms": [
+    {
+      "link": "https://www.transformation.com/",
+      "submitSelector": "button[type='submit']",
+      "fields": [
+        {
+          "required": true,
+          "selector": "#field1",
+          "type": "FirstName"
+        },
+        {
+          "required": true,
+          "selector": "#field2",
+          "type": "Email"
+        }
+      ]
+    },
+    {
+      "link": "https://ryanlee.com/pages/rl-waiting",
+      "submitSelector": "button[type='submit']",
+      "fields": [
+        {
+          "required": true,
+          "selector": "input[type='email']",
+          "type": "Email"
+        }
+      ]
+    },
+    {
+      "link": "https://www.trafficandleadstrainingacademy.com/lg1-ih/",
+      "submitSelector": "button[type='submit']",
+      "fields": [
+        {
+          "required": true,
+          "selector": "input[type='email']",
+          "type": "Email"
+        }
+      ]
+    },
+    {
+      "link": "http://archive.aweber.com/masterlist",
+      "submitSelector": "input[type='submit']",
+      "fields": [
+        {
+          "required": true,
+          "selector": "#name",
+          "type": "FirstName"
+        },
+        {
+          "required": true,
+          "selector": "#from",
+          "type": "Email"
+        }
+      ]
+    }
+  ]
+}
