@@ -25,7 +25,7 @@ class InboxRipper extends Command {
     const email = flags.email || "alecia.keys.totallyreal@gmail.com";
     const phone = flags.phone || "111-111-1111";
 
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
     for (let rawForm of content.forms) {
