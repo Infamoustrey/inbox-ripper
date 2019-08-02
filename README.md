@@ -10,5 +10,5 @@ for actual use. The source code is released as is with no support or warranty pr
 # Usage
 
 ```bash
-inrip emailToExecute@gmail.com
+inrip -e emailToExecute@gmail.com -p 111-111-1111
 ```
